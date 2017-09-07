@@ -11,5 +11,4 @@ mysql sync two db or table ,support increment sync it`s usefull when u what to c
 # 中文
 
   - 基于shell、mysql实现的全量和增量数据备份。 
-  
-  - 增量的方式需要加入where条件，详细方式欢迎体验。
+  - 增量的方式需要加入where条件，详细方式欢迎体验。
