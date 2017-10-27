@@ -1,4 +1,4 @@
-e#!/bin/bash
+#!/bin/bash
 . copyTableIncre.sh
 
 # The following database will be DELETED first:
