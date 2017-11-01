@@ -10,7 +10,7 @@ COPY_DB=marry
 COPY_TABLE=$COPY_USE
 USER=root
 PASS="123456"
-ERROR=/home/users/lujunxu/odp/log/mysql/duplicate_mysql_error.log
+ERROR=./mysql_error.log
 OPT=" --single-transaction  "
 
 LOCAL_HOST='10.99.xxx.xx'
