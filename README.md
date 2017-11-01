@@ -2,7 +2,7 @@
 
 
 
-if you hate heavy GUI tool ,this script maybe help u. 
+if you hate heavy GUI tool ,this script maybe help you. 
 mysql sync two db or table ,support increment sync it`s usefull when u what to copy two db or two db table.
 
   - lightwight
