@@ -60,6 +60,7 @@ if [ ! -z "$WHERE_COND" ];then
     set -x
     mysqldump  --user=$USER  --password=$PASS  -h$HOST  -P$PORT --force $OPT --log-error=$ERROR \
             $COPY_DB $COPY_TABLE  | mysql -u$LOCAL_USER -p$LOCAL_PASS  -h$LOCAL_HOST -P$LOCAL_PORT $LOCAL_DB
+    echo -e "the dump done!\r\n"
     set +x
 fi
 
