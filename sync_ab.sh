@@ -9,16 +9,16 @@ PORT=8899
 COPY_DB=marry
 COPY_TABLE=$COPY_USE
 USER=root
-PASS="123456"
+PASS="******"
 ERROR=./mysql_error.log
 OPT=" --single-transaction  "
 
-LOCAL_HOST='10.99.201.114'
+LOCAL_HOST='10.99.***.***'
 LOCAL_DB=poi
 LOCAL_PORT=8899
 LOCAL_TABLE=$COPY_USE
 LOCAL_USER=root
-LOCAL_PASS="work@nuomi"
+LOCAL_PASS="******"
 
 
 WHERE_COND=''
